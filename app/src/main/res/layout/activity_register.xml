@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="15dp"
+                android:text="Register for an account here"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="21sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.design.widget.TextInputLayout
+                android:background="@drawable/edit_text_layout_bg_primary"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:drawableStart="@drawable/ic_person_outline_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:padding="5dp"
+                    android:background="@null"
+                    android:hint="FullName"
+                    android:id="@+id/txt_fullname"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:background="@drawable/edit_text_layout_bg_primary"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:padding="5dp"
+                    android:background="@null"
+                    android:id="@+id/txt_email"
+                    android:hint="Email Address"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:background="@drawable/edit_text_layout_bg_primary"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:drawableStart="@drawable/ic_phone_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:padding="5dp"
+                    android:background="@null"
+                    android:hint="Phone Number"
+                    android:id="@+id/txt_phonenumber"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:background="@drawable/edit_text_layout_bg_primary"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:padding="5dp"
+                    android:background="@null"
+                    android:hint="Password"
+                    android:id="@+id/txt_reg_password"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:background="@drawable/edit_text_layout_bg_primary"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:padding="5dp"
+                    android:background="@null"
+                    android:hint="Confirm Password"
+                    android:id="@+id/txt_reg_confirm_password"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:background="@drawable/button_ui_primary"
+                android:text="Register"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

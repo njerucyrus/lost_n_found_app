@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "543305673226",
+    "firebase_url": "https://lostandfoundapp-55c47.firebaseio.com",
+    "project_id": "lostandfoundapp-55c47",
+    "storage_bucket": "lostandfoundapp-55c47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543305673226:android:97ca4ab1c5d3a2ce",
+        "android_client_info": {
+          "package_name": "com.hudutech.nazarenelostfoundapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543305673226-8bbeduevk1q51o4vh906lh44jcmp309t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hudutech.nazarenelostfoundapp",
+            "certificate_hash": "8195a77dbd40aa92857769fb8e39aff64b418fd2"
+          }
+        },
+        {
+          "client_id": "543305673226-pmih4ksfvfuf8mql7evmdb9tl5t78gbh.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "543305673226-pmih4ksfvfuf8mql7evmdb9tl5t78gbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcN99I4e-0Hw1T-7D7Fco6IQEWcPdszZc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543305673226-pmih4ksfvfuf8mql7evmdb9tl5t78gbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
